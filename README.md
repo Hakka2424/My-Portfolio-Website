@@ -31,25 +31,27 @@ Or download the ZIP file and extract it manually.
 ---
 
 ## 📂 **Project Structure** 
-My-Portfolio-Website/
---  │── index.html          # Main landing page
---  ├── contact.html        # Contact page
---  ├── gaming.html         # Gaming page
---  ├── projects.html       # Projects page
---  ├── sneakers.html       # Sneakers page
---  │── style.css           # Styling for dark/light mode & animations
---  │── script.js           # JavaScript for typewriter effect & theme toggle
---  │── README.md           # Documentation (this file)
---  │
---  ├── photos/             # Folder for images
---  │   ├── main1.jpeg
---  │   ├── main2.JPG
---  │   ├── more images
---  │
---  ├── icons/              # Folder for icons
---  │   ├── icons8-email-50.png
---  │   ├── more icons
---  │
+```
+My-Portfolio-Website
+├── index.html          # Main landing page
+├── contact.html        # Contact page
+├── gaming.html         # Gaming page
+├── projects.html       # Projects page
+├── sneakers.html       # Sneakers page
+├── style.css           # Styling for dark/light mode & animations
+├── script.js           # JavaScript for typewriter effect & theme toggle
+├── README.md           # Documentation (this file)
+│
+├── photos/             # Folder for images
+│   ├── main1.jpeg
+│   ├── main2.JPG
+│   ├── more images...
+│
+├── icons/              # Folder for icons
+│   ├── icons8-email-50.png
+│   ├── more icons...
+|
+```
 
 ---
 
