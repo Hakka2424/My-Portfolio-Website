@@ -10,6 +10,6 @@ This is my personal website showcasing my projects, gaming background, sneaker c
 ### **1. Clone or Download the Repository**  
 If you're using Git, clone the repository:  
 ```bash
-git clone [https://github.com/your-repo-name.git](https://github.com/Hakka2424/My-Portfolio-Website)
+git clone [https://github.com/Hakka2424/My-Portfolio-Website]
 ```
 Or download the ZIP file and extract it.
