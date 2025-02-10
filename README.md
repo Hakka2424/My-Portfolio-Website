@@ -32,17 +32,17 @@ Or download the ZIP file and extract it manually.
 
 ## 📂 **Project Structure** 
 My-Portfolio-Website/ 
-│── index.html # Main landing page
-│── style.css # Styling for dark/light mode & animations
-│── script.js # JavaScript for typewriter effect & theme toggle
-│── README.md # Documentation (this file)
-│
-├── photos/ # Folder for images
-│ ├── main1.jpeg
-│ ├── main2.JPG
-│
-├── icons/ # Folder for icons
-│ ├── icons8-email-50.png
+- │── index.html # Main landing page
+- │── style.css # Styling for dark/light mode & animations
+- │── script.js # JavaScript for typewriter effect & theme toggle
+- │── README.md # Documentation (this file)
+- │
+- ├── photos/ # Folder for images
+- │ ├── main1.jpeg
+- │ ├── main2.JPG
+- │
+- ├── icons/ # Folder for icons
+- │ ├── icons8-email-50.png
 
 ---
 
@@ -57,7 +57,7 @@ My-Portfolio-Website/
   - **"Developer"**  
   - **"Gamer"**  
   - **"Collector"**  
-- This effect is controlled via `script.js`.  
+- This effect is controlled in `script.js`.  
 
 ### 🎨 **Responsive Design & Animations**  
 - The website is **mobile-friendly** and adapts to different screen sizes.  
@@ -82,21 +82,20 @@ My-Portfolio-Website/
    - You can adjust the **dark/light mode colors** here.  
 
 3. **Fix Image Paths**  
-   - Ensure the paths to images in the `photos/` and `icons/` folders are correct.  
+   - Makes sure the paths to images in the `photos/` and `icons/` folders are correct.  
    - Use relative paths like `photos/main1.jpeg` instead of `/photos/main1.jpeg`.  
 
 ---
 
 ## 🎯 **To-Do / Future Improvements**  
-- [ ] Add a **Projects Page** for detailed descriptions.  
-- [ ] Implement a **backend for the contact form**.  
-- [ ] Optimize images for **faster loading**.  
+- [ ] Add more to **Projects Page** with detailed descriptions, links and images.  
+- [ ] Add a **backend for the contact form**.  
+- [ ] Optimize images for **faster loading**.
+- [ ] More animations like **boarders, moving background, etc**.
 
 ---
 
 ## 🏆 **Credits**  
 - **Created by:** Tyreke Hetzel  
 - **Course:** CS382 - Modern Web Technologies  
-- **© 2025 All Rights Reserved**  
-
-EOF
+- **© 2025 All Rights Reserved**
