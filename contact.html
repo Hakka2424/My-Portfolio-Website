@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tyreke's Contacts</title>
+    <link rel="icon" type="image/x-icon" href="icons/icons8-email-50.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+    <body>
+        <!-- navgaition menu -->
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1100">
+                    Contact <span>Me</span>
+                </div>
+
+                <!-- Light/Dark Mode Toggle Button -->
+                <button id="theme-toggle">🌙</button>
+
+                <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200"><a href="gaming.html">Gaming</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300"><a href="sneakers.html">Sneakers</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400"><a href="projects.html">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500"><a href="contact.html">Contacts</a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="index.html">Home</a>
+                    <a href="gaming.html">Gaming</a>
+                    <a href="sneakers.html">Sneakers</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contacts</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in" data-aos-duration="2500">
+                    <img src="photos/main3.JPG" alt="">
+                </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1100" data-aos-delay="700">Hey, want to <span>Talk?</span></h1>
+                    <p data-aos="flip-up" data-aos-duration="1100" data-aos-delay="1100">
+                        Feel free to contact me about anything! It can be about gaming, sneakers, projects, or just to connect.  
+                        Below are all my socials, along with my email if you prefer to reach out directly.  
+                        <br/><br/>
+                        Personal Email: Tyreke2424@gmail.com  
+                        <br/>
+                        School Email: Tyrekeh@nmsu.edu  
+                        <br/><br/>
+                        You can also check out my work, follow my sneaker page, or reach out for collaborations.  
+                        I’m always open to new opportunities, so don’t hesitate to get in touch!
+                        <br/><br/>
+                        <b>Frequently Asked Questions:</b>  
+                        <br/><br/>
+                        Q: How can I buy sneakers from you?
+                        <br/>
+                        A: You can check my inventory on Instagram, eBay, or StockX and message me.  
+                        <br/><br/>
+                        Q: What programming languages do you specialize in?  
+                        <br/>
+                        A: I mainly work with Python, C, JavaScript, and SQL.  
+                        <br/><br/>
+                        Q: Are you available for freelance web development?
+                        <br/>
+                        A: Yes, feel free to contact me for project inquiries.  
+                        <br/><br/>
+                        Q: How do I reach out for collaboration?
+                        <br/>
+                        A: You can email me or connect via LinkedIn to discuss collaboration opportunities.  
+                    </p>
+              
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/tyreke-hetzel-b89712219/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/rekeking_havoc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ty.kyler" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/tyreke_Z71" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightmode Script Section -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const toggleButton = document.getElementById("theme-toggle");
+                const body = document.body;
+    
+                // Check local storage for user preference
+                if (localStorage.getItem("theme") === "light") {
+                    body.classList.add("light-mode");
+                    toggleButton.textContent = "🌙"; // Show Moon for Light Mode
+                } else {
+                    toggleButton.textContent = "☀️"; // Default: Sun for Dark Mode
+                }
+    
+                // Toggle Light/Dark Mode on click
+                toggleButton.addEventListener("click", function () {
+                    body.classList.toggle("light-mode");
+    
+                    if (body.classList.contains("light-mode")) {
+                        localStorage.setItem("theme", "light");
+                        toggleButton.textContent = "🌙"; // Change to Moon in Light Mode
+                    } else {
+                        localStorage.setItem("theme", "dark");
+                        toggleButton.textContent = "☀️"; // Change back to Sun in Dark Mode
+                    }
+                });
+            });
+        </script> 
+
+        <!-- Footer Section Start -->
+        <footer >
+            <div class="text">
+            <span>Created By <a href="#">Tyreke Hetzel</a> | &#169; 2025 All Rights Reserved</span>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+            const navbar = document.querySelector(".dropdown");
+            navbar.style.transform = 'translateY(0px)';
+            }
+            function cancel(){
+            const navbar = document.querySelector(".dropdown");
+            navbar.style.transform = 'translateY(-500px)';
+            }
+        </script>
+    </body>
+</html> 

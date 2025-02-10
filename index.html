@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tyreke's Website</title>
+    <link rel="icon" type="image/x-icon" href="icons/icons8-fire-48.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="nav-container">
+          <div class="logo" data-aos="zoom-in" data-aos-duration="1100">
+            Tyreke <span>Hetzel</span>
+          </div>
+
+          <!-- Light/Dark Mode Toggle Button -->
+          <button id="theme-toggle">🌙</button>
+
+          <div class="links">
+              <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="100"><a href="index.html">Home</a></div>
+              <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200"><a href="gaming.html">Gaming</a></div>
+              <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300"><a href="sneakers.html">Sneakers</a></div>
+              <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400"><a href="projects.html">Projects</a></div>
+              <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500"><a href="contact.html">Contacts</a></div>
+          </div>
+          <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+          <div class="links">
+              <a href="index.html">Home</a>
+              <a href="gaming.html">Gaming</a>
+              <a href="sneakers.html">Sneakers</a>
+              <a href="projects.html">Projects</a>
+              <a href="contact.html">Contacts</a>
+              <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+          </div>
+      </div>
+    </nav>
+
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-in" data-aos-duration="2500">
+                <img src="photos/main1.jpeg" alt="">
+            </div>
+            <div class="content">
+              <h1 data-aos="fade-left" data-aos-duration="1100" data-aos-delay="700">Hey I'm <span>Tyreke</span></h1>
+              <div class="typewriter" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="900">
+                  I'm a <span class="typewriter-text"></span><label for="">|</label>
+              </div>
+              <p data-aos="flip-up" data-aos-duration="1100" data-aos-delay="1100">
+                I'm a 25-year-old undergraduate student graduating in Spring 2025 with a Bachelor's in Computer Science from 
+                New Mexico State University (NMSU). I built this website myself, featuring links to my contacts and social media.
+                <br/><br/>
+                On my free time, I enjoy building PCs for friends and family and playing FPS games on my custom built PC. My main 
+                game is Rainbow Six Siege, where I previously competed in NMSU's esports team for a season. I've ranked in the 
+                top 1,000 globally and achieved Champion rank five times, placing me in the top 0.1% on PC.
+                <br/><br/>
+                I'm also a sneaker collector with over 200 pairs, including Jordans, Nikes, and Yeezys. I believe my entire collection is valued 
+                at around $20,000. I buy, sell, and trade sneakers across New Mexico and Texas, but I mainly sell online through official sneaker websites.
+                <br/><br/>
+                <b>Below are links to all my socials and contact information.</b>  
+                <b>You will also find a button below to download my resume.</b>  
+                <b>I am actively looking for a job in Web Development, IT Support, or System Administration.</b>  
+                <b>If you’re interested, feel free to connect with me!</b>
+              </p>
+              
+              <!-- Social Links -->
+              <div class="social-links">
+                  <a href="https://github.com/Hakka2424" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/rekeking_havoc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/ty.kyler" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.linkedin.com/in/tyreke-hetzel-b89712219/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://x.com/tyreke_Z71" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+              </div>
+              
+              <!-- Download Resume Button -->
+              <div class="btn" data-aos="zoom-in-left" data-aos-duration="1100" data-aos-delay="1700">
+                  <a href="https://drive.google.com/uc?export=download&id=1DludOUNhXTVoNlRiPMZ6ix8Xzwd6a2FB" download>
+                      <button>Download Resume</button>
+                  </a>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left"  data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+            <img src="photos/main2.JPG" alt="" />
+          </div>
+          <div class="right" >
+              <p class="about-text" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="200">
+                I am looking to be a <span>System Administration & Web Developer</span> with a Bachelor’s in Computer Science from New Mexico State University (NMSU), 
+                graduating in Spring 2025. Over the past three years, I’ve gained hands-on experience through school projects, assignments, and personal learning.
+                <br/><br/>
+                I specialize in <strong>web development</strong>, <strong>system administration</strong>, and <strong>IT support</strong>.
+                With a strong interest in expanding my career experience in <strong>web development</strong>, <strong>system administration</strong>, or <strong>IT support</strong> roles. 
+                I am always eager to learn new technologies and improve my skills.
+                <br/><br/> 
+                Technical Experience:
+                <br/>🔴<strong> Web Development</strong> – Frontend & backend development, designing user-friendly interfaces, and producing a responsive and optiminal performance.
+                <br/>🔴<strong> System Administration</strong> – Managing and configuring operating systems, troubleshooting network issues, and maintaining system security.
+                <br/>🔴<strong> IT Support</strong> – Diagnosing and resolving hardware/software issues, optimizing system performance, and smooth tech operations.
+                <br/>🔴<strong> PC Building & Optimization</strong> – Self-taught in building PCs, installing operating systems, removing malware/viruses, optimizing storage, improving performance, and tweaking CPU/GPU BIOS settings for better efficiency.
+                <br/><br/> I’m actively looking for opportunities in <strong>web development</strong>, <strong>IT support</strong>, or <strong>system administration</strong>, where I can apply my technical knowledge and problem-solving skills to create innovative solutions.
+              </p>
+              <div class="exp-area">
+                <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300"> 
+                  Experience:                                                                                                                                     
+                  <span>3 Years</span>
+                </p>
+                
+                <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400">
+                  Speciality:
+                  <span>Web Designer and IT Support Specialist</span>
+                </p>
+                <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">
+                  Address: 
+                  <span>Las Cruces, New Mexico, USA</span>
+                </p>
+                
+                <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600">
+                  Email: 
+                  <span>Tyreke2424@gmail.com</span>
+                </p>
+                
+                <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="700">
+                  Phone: 
+                  <span>+1 (915)400-8300</span>
+                </p>
+                
+                <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="800">
+                  Freelance: 
+                  <span>Available</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+              Skills Reflect Our Knowledge
+            </div>
+            <p data-aos="flip-down" data-aos-duration="1100" data-aos-delay="200">
+              These are all the programming languages I have learned throughout my career at <b>New Mexico State University (NMSU)</b>.  
+              I have stronger skills in <b>Python, JavaScript, Java, and C++</b>, while I am still improving my proficiency in <b>PHP and Assembly</b>.  
+              <br/><br/>
+              I originally started as a <b>Nursing major</b> but later switched to <b>Computer Science</b>. Despite the shift, I have managed to  
+              learn a lot of informations within just three years. I am continuously learning and bettering my skills, striving for perfection as I progress.  
+            </p>
+            <div class="experience" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="300">
+              <div class="num">3</div>
+              <div class="exp">
+                Years Of <br />
+                Experience
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="400">
+              <div class="topic">HTML</div>
+              <div class="per">75%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="500">
+              <div class="topic">CSS</div>
+              <div class="per">60%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="600">
+              <div class="topic">PHP</div>
+              <div class="per">20%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="700">
+              <div class="topic">Python</div>
+              <div class="per">85%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="800">
+              <div class="topic">C</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="900">
+              <div class="topic">C++</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="1000">
+              <div class="topic">Java</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="1100">
+              <div class="topic">JavaScript</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="1200">
+              <div class="topic">Bash</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="1300">
+              <div class="topic">Assembly</div>
+              <div class="per">20%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Web Development</div>
+            <p>I specialize in creating responsive and user-friendly websites using HTML, CSS, JavaScript, and modern frameworks. Whether it's a static site or a dynamic web application, I can build, optimize, and deploy web solutions.</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="100">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Graphic Design</div>
+            <p>With experience in UI/UX design, I can create visually appealing graphics for websites, logos, and marketing materials. Using tools like Adobe Photoshop and Illustrator, I focus on aesthetics and usability.</p>
+          </div>
+          <div class="box" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="100">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Digital Marketing</div>
+            <p>I provide SEO optimization, social media strategies, and online branding techniques to help businesses grow. By analyzing trends and engagement, I visibility and improve customer reach.</p>
+          </div>
+          <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="300">
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">Icon Design</div>
+            <p>From app icons to custom graphics, I create high-quality, scalable app icons that maintain clarity across different devices and screen sizes, making user experience and branding consistency.</p>
+          </div>
+          <div class="box" data-aos="fade-down" data-aos-duration="1100" data-aos-delay="300">
+            <div class="icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <div class="topic">IT Support & Troubleshooting</div>
+            <p>Offering technical support for PC builds, hardware/software issues, OS installation, network troubleshooting, and system optimization. I diagnose problems and provide solutions to ensure smooth performance.</p>
+          </div>
+          <div class="box" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="400">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">App Development</div>
+            <p>Experienced in developing applications for web and mobile using Java, Python, and JavaScript. I build functional, scalable, and user-friendly apps that meet the client needs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <script src="script.js"></script>
+
+    <!-- Contact Me Section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="100">Have Any Project?</div>
+          <p data-aos="fade-right" data-aos-duration="1100" data-aos-delay="200">
+            I am always open to <b>freelance opportunities</b>, <b>collaborations</b>, or <b>full-time roles</b> in  
+            <b>Web Development</b>, <b>IT Support</b>, and <b>System Administration</b>.  
+            <br/><br/>
+            Whether you need a <b>website built</b>, <b>technical support</b>, or <b>custom solutions</b>, I am here to help!  
+            <br/><br/>
+            Feel free to reach out with any questions or project inquiries. Let’s work together to create something great!  
+          </p>
+        </div>
+        <div class="contact-form-container">
+          <form class="contact-form">
+              
+              <label for="name" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">
+
+              <label for="email" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your Email" required data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400">
+
+              <label for="phone" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">
+
+              <label for="message" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your Message" required data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600"></textarea>
+
+              <button type="submit" class="contact-btn" data-aos="zoom-in-up" data-aos-duration="1100" data-aos-delay="700">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightmode Script Section -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          const toggleButton = document.getElementById("theme-toggle");
+          const body = document.body;
+
+          // Check local storage for user preference
+          if (localStorage.getItem("theme") === "light") {
+              body.classList.add("light-mode");
+              toggleButton.textContent = "🌙"; // Show Moon for Light Mode
+          } else {
+              toggleButton.textContent = "☀️"; // Default: Sun for Dark Mode
+          }
+
+          // Toggle Light/Dark Mode on click
+          toggleButton.addEventListener("click", function () {
+              body.classList.toggle("light-mode");
+
+              if (body.classList.contains("light-mode")) {
+                  localStorage.setItem("theme", "light");
+                  toggleButton.textContent = "🌙"; // Change to Moon in Light Mode
+              } else {
+                  localStorage.setItem("theme", "dark");
+                  toggleButton.textContent = "☀️"; // Change back to Sun in Dark Mode
+              }
+          });
+      });
+    </script>      
+
+    <!-- Footer Section Start -->
+    <footer >
+      <div class="text">
+        <span>Created By <a href="#">Tyreke Hetzel</a> | &#169; 2025 All Rights Reserved</span>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script>
+      function hamburg(){
+        const navbar = document.querySelector(".dropdown");
+        navbar.style.transform = 'translateY(0px)';
+      }
+      function cancel(){
+        const navbar = document.querySelector(".dropdown");
+        navbar.style.transform = 'translateY(-500px)';
+      }
+    </script>
+  </body>
+</html> 
