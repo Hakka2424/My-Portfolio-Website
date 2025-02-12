@@ -1,6 +1,6 @@
 # 🎨 Portfolio Website for CS382 Modern Web Technologies  
 
-## 🌐 Tyreke's Personal Website - https://hakka2424.github.io/index.html
+## 🌐 Tyreke's Personal Website - https://hakka2424.github.io/My-Portfolio-Website/
 
 Welcome to my personal website! This site showcases my **projects, gaming background, sneaker collection, and contact information**.  
 
